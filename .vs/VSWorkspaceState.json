@@ -2,8 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\HCI_site",
-    "\\HCI_site\\Source_Code"
+    "\\HCI_site\\Source_Code",
+    "\\HCI_site\\Source_Code\\javascript",
+    "\\HCI_site\\Source_Code\\styles"
   ],
-  "SelectedNode": "\\HCI_site\\Source_Code\\index.html",
+  "SelectedNode": "\\HCI_site\\Source_Code\\javascript\\index.js",
   "PreviewInSolutionExplorer": false
 }

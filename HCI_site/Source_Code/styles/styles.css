@@ -1,0 +1,17 @@
+﻿body
+{
+}
+
+h1 {
+    color: #00FF00;
+}
+
+.col-sm-4 {
+    color: cyan;
+    background-color: darkslategrey;
+}
+
+.col-sm-8 {
+    color: darkslategrey;
+    background-color: cyan;
+}
