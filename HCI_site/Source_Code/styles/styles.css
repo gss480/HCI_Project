@@ -1,2 +1,48 @@
 ﻿body {
+    color:rgb(73, 73, 73);
+    font-family: 'Montserrat';
+}
+
+h1 {
+    font-weight: bold;
+}
+
+.jumbotron {
+    background-color:rgb(227, 252, 238);
+}
+
+#uname {
+    background-color:rgb(227, 252, 238);
+    border-color:rgb(199, 255, 223);
+}
+
+#uname:focus {
+    box-shadow: none;
+    border-color:rgb(126, 255, 182);
+}
+
+#pwd {
+    background-color:rgb(227, 252, 238);
+    border-color:rgb(199, 255, 223);
+}
+
+#pwd:focus {
+    box-shadow: none;
+    border-color:rgb(126, 255, 182);
+}
+
+.btn {
+    background-color:rgb(254, 216, 177);
+    border-color:rgb(255, 194, 132);
+    color:rgb(73, 73, 73);
+}
+
+.btn:active {
+    background-color:rgb(255, 194, 132);
+    border-color:rgb(254, 216, 177);
+    box-shadow: none;
+}
+
+.btn:focus {
+    box-shadow: none;
 }
