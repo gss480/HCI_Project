@@ -20,30 +20,30 @@
 
         <div class="jumbotron jumbotron-fluid text-center">
             <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-sm-* pr-2">
+                <div class="row justify-content-between">
+                    <div class="col-sm-* ml-5">
                         <h1 class="mt-4">Stats!</h1>
                     </div>
-                    <div class="col-sm-* pl-2">
+                    <div class="col-sm-* mr-1">
                         <img src="images\Logo.png" alt="Baby breathe logo" style="width:100px; height:100px" vspace="10">
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="pl-5 pr-5">
+        <div class="pl-5 pr-5 pb-3">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-sm-4 text-center">
-                        <p class="h5">You have been smoke free for</p>
+                        <p class="h5">You have been <strong>smoke free</strong> for</p>
                     </div>
                     <div class="w-100"></div>
                     <div class="col-sm-4 text-center">
-                        <p class="h1"><strong>89 days!</strong></p>
+                        <p class="h1" id="n-days"><strong>89 days!</strong></p>
                     </div>
 
                 </div>
-                <div class="row justify-content-between" id="tester">
+                <div class="row justify-content-between" id="statistics">
                     <div class="col-sm-5 mt-4 mb-4 p-1 rounded">
                         <figure class="figure text-center">
                             <img src="images/Life_Expectancy.png" class="figure-img img-fluid rounded" alt="A line diagram indicating the increase in life expectancy.">
@@ -58,6 +58,15 @@
                     </div>
                 </div>
             </div>
+            <form class="">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-sm-*">
+                            <button type="submit" class="btn" id="goal-btn"><strong>Goal</strong></button>
+                        </div>
+                    </div>
+                </div>
+            </form>
         </div>
 
         <!--Bootstrap JS depenencies-->

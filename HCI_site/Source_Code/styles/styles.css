@@ -129,6 +129,14 @@ footer {
     background-color: rgb(227, 252, 238);
 }
 
-#tester .col-sm-5 {
+#statistics .col-sm-5 {
     background-color: rgb(227, 252, 238);
+}
+
+#n-days {
+    color: rgb(34, 102, 34);
+}
+
+#goal-btn {
+    width: 125px;
 }
