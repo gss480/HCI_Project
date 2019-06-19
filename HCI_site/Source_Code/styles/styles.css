@@ -118,10 +118,11 @@ h1 {
     transform: rotate(45deg);
   }
 
-form {
-    padding: 25px;
+footer div a {
+    color: rgb(73, 73, 73);
+    font-family: 'Montserrat';
 }
 
-.form-check {
-    padding-left: 0px;
+footer {
+    background-color: rgb(227, 252, 238);
 }
