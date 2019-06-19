@@ -41,6 +41,7 @@ h1 {
     background-color:rgb(254, 216, 177);
     border-color:rgb(255, 194, 132);
     color:rgb(73, 73, 73);
+    font-weight: bolder;
 }
 
 .btn:active {
