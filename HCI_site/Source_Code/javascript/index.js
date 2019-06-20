@@ -3,7 +3,7 @@ $(document).ready(function () {
     $(".factstext").hide();
 });
 
-function clickFunction(element) {
+function toggleHideElement(element) {
     if ($(element).is(":hidden")) {
         $(element).show();
     } else {
