@@ -1,83 +1,117 @@
-
+﻿
 <!DOCTYPE html>
 
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
-<head>
-    <!--Required meta tags-->
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <head>
+        <!--Required meta tags-->
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!--Bootstrap-->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <!--Bootstrap-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-    <!--CSS files-->
-    <link rel="stylesheet" href="styles/styles.css" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+        <!--CSS files-->
+        <link rel="stylesheet" href="styles/styles.css" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
 
 
-    <title>BabyBreathe - Facts</title>
-</head>
-<body>
+        <title>BabyBreathe - Facts</title>
+    </head>
+    <body>
 
         <div class="jumbotron jumbotron-fluid text-center">
             <div class="container">
-            <h1>Facts <img src="images\Logo.png" alt="Baby breathe logo" style="width:40px;height:40px" vspace="10"></h1>
+                <h1>Facts <img src="images\Logo.png" alt="Baby breathe logo" style="width:40px;height:40px" vspace="10"></h1>
             </div>
         </div>
 
-        <button type="button" class="btn btn2" id="MommyFacts" onclick="clickFunction1()">Facts about me</button>
-        <div id="MommyFactsText" class="scroll factstext">
-        <p> 
-        <ul style="list-style-type:disc;">
-          <li>Lowered risk for lung cancer and many other types of cancer</li>
-          <li>Reduced risk for heart disease, stroke, and peripheral vascular disease (narrowing of the blood vessels outside your heart).</li>
-          <li>Reduced respiratory symptoms, such as coughing, wheezing, and shortness of breath. While these symptoms may not disappear, they do not continue to progress at the same rate among people who quit compared with those who continue to smoke. </li>
-          <li>Quitting smoking will keep your hearing sharp. Remember, even mild hearing loss can cause problems. </li>
-          <li>Stopping smoking will improve your night vision and help preserve your overall vision by stopping the damage that smoking does to your eyes. </li>
-          <li>Quitting smoking will reduce your belly fat and lower your risk of diabetes. If you already have diabetes, quitting can help you keep your blood sugar levels in check.</li>
-          <li>Your estrogen levels will gradually return to normal after you quit smoking. </li>
-          <li>Quitting smoking will increase your chances of another healthy pregnancy in the future. </li>
-        </ul>
-        </p>
-     </div>
-        <button type="button" class="btn btn2" id="BabyFacts" onclick="clickFunction2()" >Facts about my baby</button>
-         <div id="BabyFactsText" class="scroll factstext">
-        <p> 
-        <ul style="list-style-type:disc;">
-          <li>Fewer coughs and chest colds.</li>
-<li>Lower chances of getting bronchitis or pneumonia. </li>
-<li>Fewer ear infections. </li>
-<li>Less freqeunt and less severe asthma, if they have asthma. </li>
-<li>Fewer missed school days because of asthma attacks and breathing illnesses. </li>
-<li>Less of a chance of becoming smokers as adults. </li>
-<li>Lower chances of dying from SIDS. </li>
-<li>Smoking while breasteeding the baby does expose the baby to nicotine and other harmful substances through breastmilk. If it’s not the right time for you to quit, you can help your baby by following a plan to reduce your baby’s exposure to cigarette smoke. </li>
-        </ul>
-        </p>
-     </div>
-        <button type="button" class="btn btn2" id="SuccessStories" onclick="clickFunction3()">Success Stories</button>
-        <div id="SuccessStoriesText" class="scroll factstext">
-        <p>“BabyBreathe helped me in the most perfect way. I updated the baby diary almost everyday and throughout my journey, it helped me immensly. Seeing pictures of my baby and how much she has grown, gave me the motivation to be the best mommy to her as I could be. This included not smoking.” <i>- Anna van Haren, 26</i></p>
-        <p>“Before my pregnancy, I smoked half a pack of cigarettes a day. During my pregnancy, I quit cold turkey. But because of the stress of taking care of a newborn, I always had the urge to smoke again. Now, I have used BabyBreathe for 3 months, and it helped me a lot. Whenever I feel the urge to start smoking, I press the MOTIVATE ME! button. Also, as a hard working single mom, BabyBreathe helps me keep track of how much money I have saved. This helps me to stay motivated to keep being healthy by not smoking. And using the money I have saved for stuff for my baby.” <i>- Lisa Cohen, 28</i></p>
-        <p>"With an almost 2-pack-a-day addiction; with a chest cold and horrible coughing that suggested that someone needed to take pity on me and make an immediate call to an ambulance service; there I was sitting on the side of the bed with a cigarette dangling from my mouth and lighter in hand trying to breathe shallow little breaths so I wouldn’t cough my fool head off while lighting my first cigarette of the day. Something snapped. I took a long hard look at the cigarette and lighter and threw them across the room. “ <i>- Dee McGee, 31</i></p>
+        <div class="container">
+
+            <div class="row justify-content-center">
+                <div class="col-sm-6 padded">
+                    <button type="button" class="btn btn2 btn-block text-center" id="MommyFacts" onclick="clickFunction('#MommyFactsText')">Facts about me</button>
+                </div>
+            </div>
+
+            <div id="MommyFactsText" class="factstext">
+                <p>
+                    <ul>
+                        <li>Lowered risk for lung cancer and many other types of cancer</li>
+                        <li>Reduced risk for heart disease, stroke, and peripheral vascular disease (narrowing of the blood vessels outside your heart).</li>
+                        <li>Reduced respiratory symptoms, such as coughing, wheezing, and shortness of breath. While these symptoms may not disappear, they do not continue to progress at the same rate among people who quit compared with those who continue to smoke. </li>
+                        <li>Quitting smoking will keep your hearing sharp. Remember, even mild hearing loss can cause problems. </li>
+                        <li>Stopping smoking will improve your night vision and help preserve your overall vision by stopping the damage that smoking does to your eyes. </li>
+                        <li>Quitting smoking will reduce your belly fat and lower your risk of diabetes. If you already have diabetes, quitting can help you keep your blood sugar levels in check.</li>
+                        <li>Your estrogen levels will gradually return to normal after you quit smoking. </li>
+                        <li>Quitting smoking will increase your chances of another healthy pregnancy in the future. </li>
+                    </ul>
+                </p>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-sm-6 padded">
+                    <button type="button" class="btn btn2 btn-block text-center" id="BabyFacts" onclick="clickFunction('#BabyFactsText')">Facts about my baby</button>
+                </div>
+            </div>
+
+
+            <div id="BabyFactsText" class="factstext">
+                <p>
+                    <ul>
+                        <li>Fewer coughs and chest colds.</li>
+                        <li>Lower chances of getting bronchitis or pneumonia.</li>
+                        <li>Fewer ear infections.</li>
+                        <li>Less freqeunt and less severe asthma, if they have asthma.</li>
+                        <li>Fewer missed school days because of asthma attacks and breathing illnesses.</li>
+                        <li>Less of a chance of becoming smokers as adults.</li>
+                        <li>Lower chances of dying from SIDS.</li>
+                        <li>Smoking while breasteeding the baby does expose the baby to nicotine and other harmful substances through breastmilk. If it’s not the right time for you to quit, you can help your baby by following a plan to reduce your baby’s exposure to cigarette smoke.</li>
+                    </ul>
+                </p>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-sm-6 padded">
+                    <button type="button" class="btn btn2 btn-block text-center" id="SuccessStories" onclick="clickFunction('#SuccessStoriesText')">Success Stories</button>
+                </div>
+            </div>
+
+
+            <div id="SuccessStoriesText" class="factstext">
+                <blockquote class="blockquote text-center">
+                    <p>"BabyBreathe helped me in the most perfect way. I updated the baby diary almost everyday and throughout my journey, it helped me immensly. Seeing pictures of my baby and how much she has grown, gave me the motivation to be the best mommy to her as I could be. This included not smoking."</p>
+                    <footer class="blockquote-footer">Anna van Haren, 26</footer>
+                </blockquote>
+                <hr />
+                <blockquote class="blockquote text-center">
+                    <p>"Before my pregnancy, I smoked half a pack of cigarettes a day. During my pregnancy, I quit cold turkey. But because of the stress of taking care of a newborn, I always had the urge to smoke again. Now, I have used BabyBreathe for 3 months, and it helped me a lot. Whenever I feel the urge to start smoking, I press the MOTIVATE ME! button. Also, as a hard working single mom, BabyBreathe helps me keep track of how much money I have saved. This helps me to stay motivated to keep being healthy by not smoking. And using the money I have saved for stuff for my baby."</p>
+                    <footer class="blockquote-footer">Lisa Cohen, 28</footer>
+                </blockquote>
+                <hr />
+                <blockquote class="blockquote text-center">
+                    <p>"With an almost 2-pack-a-day addiction; with a chest cold and horrible coughing that suggested that someone needed to take pity on me and make an immediate call to an ambulance service; there I was sitting on the side of the bed with a cigarette dangling from my mouth and lighter in hand trying to breathe shallow little breaths so I wouldn’t cough my fool head off while lighting my first cigarette of the day. Something snapped. I took a long hard look at the cigarette and lighter and threw them across the room."</p>
+                    <footer class="blockquote-footer">Dee McGee, 31</footer>
+                </blockquote>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-sm-6 padded">
+                    <button type="button" class="btn btn2 btn-block text-center" id="Tips" onclick="clickFunction('#TipsText')">Tips</button>
+                </div>
+            </div>
+
+
+            <div id="TipsText" class="factstext">
+                <p>If you want to get in contact with other mothers to receive tips about how to stay healthy by not smoking, you can click here.</p> <!--link naar discussion form hier-->
+            </div>
         </div>
-        <button type="button" class="btn btn2" id="Tips" onclick="clickFunction4()">Tips</button>
-        <div id="TipsText" class="scroll factstext">
-        <p>
-        If you want to get in contact with other mothers to receive tips about how to stay healthy by not smoking, you can click here.  <!--link naar discussion form hier-->
-        </p>
-        </div>
-     </div>
 
-     
-      
+            <!--Bootstrap JS depenencies-->
+            <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
-        <!--Bootstrap JS depenencies-->
-        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-
-        <!--JS files-->
-        <script async src="javascript/index.js"></script>
-</body>
+            <!--JS files-->
+            <script async src="javascript/index.js"></script>
+    </body>
 </html>
