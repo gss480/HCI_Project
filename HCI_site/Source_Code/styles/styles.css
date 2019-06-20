@@ -54,6 +54,10 @@ h1 {
     box-shadow: none;
 }
 
+.btn:hover {
+    color: rgb(73, 73, 73);
+}
+
 .form-check-label {
     display: block;
     position: relative;
