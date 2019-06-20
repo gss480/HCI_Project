@@ -9,8 +9,8 @@ h1 {
 
 .jumbotron {
     background-color:rgb(227, 252, 238);
-    padding-top: 10%;
-    padding-bottom: 5%;
+    padding-top: 5%;
+    padding-bottom: 2%;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -140,4 +140,83 @@ footer {
 
 #goal-btn {
     width: 125px;
+}
+
+/* CSS for the homepage */
+
+#Quote {
+    font-size: 15px;
+}
+
+.stats1 {
+    text-align: center;
+    line-height: 26pt;
+}
+
+#days {
+    margin-top: 30px;
+    color: rgb(126,255,182);
+    font-size: 70px;
+    font-weight: bold;
+    line-height: 26pt;
+}
+
+#motivatebutton { 
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    display: flex;
+}
+
+.AboutUs {
+    background-color: rgb(227, 252, 238);
+    width: 300px;
+    margin: 10px;
+    font-size: 10px;
+    padding: 10px
+}
+
+.scroll {
+    width: 95%;
+    height: 150px;
+    overflow-y: scroll;
+}
+
+/* CSS for the factspage */
+.btn2 {
+    background-color: rgb(199, 255, 223);
+    border-color: rgb(126, 255, 182);
+    color: rgb(73, 73, 73);
+    border-radius: 10px;
+    width: 95%;
+    height: 80px;
+    text-align: left;
+    margin: 10px;
+    font-size: 20px;
+}
+
+.btn2:active {
+    background-color: rgb(126, 255, 182);
+    border-color: rgb(126, 255, 182);
+    box-shadow: none;
+}
+
+.btn2:focus {
+    box-shadow: none;
+}
+
+.arrow{
+    text-align: right;
+}
+
+.factstext {
+    background-color: rgb(227, 252, 238);
+    width: 95%;
+    margin-left:9px;
+    margin-top: 0px;
+    font-size: 15px;
+    padding: 1px;
+    text-align: left;
+    height: 300px;
+    display: none;
 }
