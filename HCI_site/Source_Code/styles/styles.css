@@ -218,6 +218,9 @@ h1 {
   width: 100%;
   background-color: rgb(227, 252, 238);
   overflow: auto;
+    z-index: 1000;
+    border-top: 10px;
+    border-color: white;
 }
 
 .icon-bar a {
@@ -225,7 +228,7 @@ h1 {
 	float: left;
   width: 16%;
   text-align: center;
-  padding: 3% 0;
+  padding: 10px 0;
   transition: all 0.3s ease;
   color: black;
   font-size: 36px;
@@ -237,4 +240,9 @@ h1 {
 
 .active {
   background-color: rgb(254, 216, 177);
+}
+
+.content {
+    margin-bottom: 100px;
+    position: sticky;
 }
