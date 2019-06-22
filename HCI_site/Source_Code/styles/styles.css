@@ -210,3 +210,31 @@ h1 {
 .blockquote {
     font-size: 1rem;
 }
+
+
+.icon-bar {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(227, 252, 238);
+  overflow: auto;
+}
+
+.icon-bar a {
+	
+	float: left;
+  width: 16%;
+  text-align: center;
+  padding: 3% 0;
+  transition: all 0.3s ease;
+  color: black;
+  font-size: 36px;
+}
+
+.icon-bar a:hover {
+  background-color: rgb(126, 255, 182);
+}
+
+.active {
+  background-color: rgb(254, 216, 177);
+}
